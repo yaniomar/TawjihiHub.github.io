@@ -211,10 +211,10 @@ document.addEventListener("DOMContentLoaded", function () {
     const aboutUsSection = document.getElementById("aboutUs");
 
     const bgImages = [
-        '../images/navyBlueBG.png',
-        '../images/redBG.png',
-        '../images/yellowBG.png',
-        '../images/tealBG.png'
+        'images/navyBlueBG.png',
+        'images/redBG.png',
+        'images/yellowBG.png',
+        'images/tealBG.png'
     ];
 
     let currentIndex = 0;
