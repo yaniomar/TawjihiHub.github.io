@@ -448,6 +448,7 @@ body {
         flex-direction: column;
         padding: 10px;
         height: auto;
+        margin-left: 5%;
     }
 
     #contactForm {
