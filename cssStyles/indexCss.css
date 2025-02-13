@@ -248,11 +248,16 @@ body {
 }
 
 .library-content.show-categories .category-list {
+    display: block;
     width: 40%;
 }
 
 .library-content.show-categories .subject-list {
     width: 60%;
+}
+
+.category-list {
+    display: none;
 }
 
 .subject-list h2,
@@ -439,6 +444,34 @@ body {
         margin: 10px;
     }
 
+    #contactContainer {
+        flex-direction: column;
+        padding: 10px;
+        height: auto;
+    }
+
+    #contactForm {
+        width: 90%;
+        padding: 15px;
+        height: auto;
+        min-height: 180px;
+    }
+
+    #contactForm h2 {
+        font-size: 1.5rem;
+    }
+
+    #contactForm input,
+    #contactForm textarea {
+        font-size: 1rem;
+        padding: 8px;
+    }
+
+    #contactForm button {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
     .library-content {
         flex-direction: column;
         height: auto;
@@ -446,6 +479,7 @@ body {
 
     .subject-list,
     .category-list {
+        display: block;
         width: 100%;
         padding: 20px;
         position: relative;
@@ -469,6 +503,10 @@ body {
 
     #openCategoriesButton {
         display: none;
+    }
+
+    #contactForm {
+        height: 50%;
     }
 }
 
@@ -503,5 +541,26 @@ body {
     .categories-list li {
         font-size: 0.9rem;
         padding: 10px 12px;
+    }
+
+    #contactForm {
+        width: 90%;
+        padding: 10px;
+        min-height: 150px;
+    }
+
+    #contactForm h2 {
+        font-size: 1.3rem;
+    }
+
+    #contactForm input,
+    #contactForm textarea {
+        font-size: 0.9rem;
+        padding: 6px;
+    }
+
+    #contactForm button {
+        font-size: 0.9rem;
+        padding: 8px;
     }
 }
